@@ -18,7 +18,7 @@ function createHeart() {
 // Generate hearts continuously
 setInterval(createHeart, 500);
 
-// Optional: click effect confetti hearts
+// Click effect: confetti hearts
 document.body.addEventListener('click', (e) => {
     for (let i = 0; i < 10; i++) {
         const heart = document.createElement('div');
