@@ -10,15 +10,13 @@ function createHeart() {
     heart.style.animationDuration = (3 + Math.random() * 3) + 's';
     heartsContainer.appendChild(heart);
 
-    setTimeout(() => {
-        heart.remove();
-    }, 6000);
+    setTimeout(() => heart.remove(), 6000);
 }
 
 // Generate hearts continuously
 setInterval(createHeart, 500);
 
-// Click effect: confetti hearts
+// Click effect: hearts confetti
 document.body.addEventListener('click', (e) => {
     for (let i = 0; i < 10; i++) {
         const heart = document.createElement('div');
