@@ -7,7 +7,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    background: linear-gradient(135deg, #ff9acb, #ff5fa2, #ffb6c1);
     overflow: hidden;
 }
 
@@ -19,7 +19,7 @@ body, html {
 /* Text animations */
 .sentence {
     color: #fff;
-    font-weight: 800;
+    font-weight: 900; /* Extra bold */
     text-shadow: 0 0 15px #fff, 0 0 30px #ff69b4;
     opacity: 0;
     transform: translateY(50px);
@@ -41,9 +41,9 @@ body, html {
 /* Heart animation */
 .heart {
     margin-top: 30px;
-    color: #ff1493;
+    color: #fff;
     font-size: 3rem;
-    text-shadow: 0 0 15px #fff, 0 0 30px #ff69b4;
+    text-shadow: 0 0 20px #fff, 0 0 40px #ff69b4;
     animation: heartbeat 1.5s infinite;
 }
 
@@ -65,7 +65,7 @@ body, html {
 .floating-heart {
     position: absolute;
     font-size: 1.5rem;
-    color: #ff69b4;
+    color: #fff;
     animation: floatUp linear infinite;
 }
 
